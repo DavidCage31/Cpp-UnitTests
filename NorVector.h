@@ -90,7 +90,7 @@ public:
 		if (this->N == 0)
 			throw std::runtime_error("NorVector is empty");
 		
-		return this->norVec[N-- - 1];
+		return this->norVec[--N];
 	}
 
 	void make_size(const size_t size) override {
