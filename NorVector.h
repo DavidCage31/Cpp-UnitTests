@@ -24,7 +24,7 @@ class NorVector : public NorVectorInterface<norVec_Ty> {
 private:
 	size_t 		N;
 	size_t 		capacity;
-	norVec_Ty*  norVec;
+	norVec_Ty*  	norVec;
 	norVec_Ty* 	arr;
 
 public:
